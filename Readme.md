@@ -2,6 +2,9 @@
 
 Define expected variables of fluid templates.
 
+> **Warning**: 
+> Fluid has a [similiar functionality](https://github.com/NamelessCoder/Fluid/blob/master/src/ViewHelpers/ParameterViewHelper.php) in version 3.x and plans to have it also in 2.x. This solution is not compatible with what might become available in TYPO3 soon. If you want to migrate to the native functionality later it will be manual labor.
+
 ## Why?
 
 Fluid often silently fails when you forget to pass a variable to a template, because any undefined variable will just evaluate as null.
